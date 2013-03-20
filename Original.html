@@ -1,0 +1,813 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head id="ctl00_ctl00_ctl00_HtmlHead"><!--
+v 13.2.10.16
+s mezA10PNERqEG6WuhyijeA==
+r 16c25903-396f-4c5f-b553-166bf8381268
+-->
+
+<meta name="application-name" content="The Official Xbox 360 Website" />
+<meta name="msapplication-tooltip" content="The Official Xbox 360 Website" />
+
+
+       <meta name="msapplication-task" content="name=My Xbox;action-uri=http://live.xbox.com?cid=jumplist:Live;icon-uri=http://nxeassets.xbox.com/shaxam/0201/30/fc/30fc9af1-e46f-4cee-b034-21a9c0c75461.ICO?v=1#xbl.ICO" />
+
+       <meta name="msapplication-task" content="name=Games + Marketplace;action-uri=http://marketplace.xbox.com?cid=jumplist:marketplace;icon-uri=http://nxeassets.xbox.com/shaxam/0201/30/fc/30fc9af1-e46f-4cee-b034-21a9c0c75461.ICO?v=1#xbl.ICO" />
+
+       <meta name="msapplication-task" content="name=Xbox Support;action-uri=http://support.xbox.com;icon-uri=http://support.xbox.com/SiteAssets/XboxSupportV2/images/favicon.ico" />
+
+       <meta name="msapplication-task" content="name=PC Setup;action-uri=http://www.xbox.com/PCSetup?cid=jumplist:pcsetup;icon-uri=http://support.xbox.com/SiteAssets/XboxSupportV2/images/favicon.ico" />
+
+
+<meta name="ms.siteorg" content="Entertainment and Devices" />
+<meta name="ms.sitename" content="Xbox" />
+
+<meta name="ms.loc" content="FR" />
+<meta name="ms.lang" content="es" />
+
+    <!--Third party scripts and code linked to or referenced here are licensed to you by the third parties that own such code, not by Microsoft, see ASP.NET Ajax CDN Terms of Use – http://www.asp.net/ajaxlibrary/CDN.ashx.-->
+    <script src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.2.min.js"></script>
+    <script src="/shell/js/its.amd.js"></script>
+    <script>
+        var xboxComShellData = { };
+        xboxComShellData.searchScopeOptions = [];
+        xboxComShellData.version = "13.2.10.16";
+
+        
+                xboxComShellData.searchScopeOptions.push({
+                    value: "http://www.xbox.com/es-ES/Search?q={0}#All",
+                    context: "Buscar todo",
+                    label: "En todo",
+                    id: "All",
+                    enumValue: 0
+                });
+        
+                xboxComShellData.searchScopeOptions.push({
+                    value: "http://www.xbox.com/es-ES/Search?q={0}#General",
+                    context: "Buscar en general",
+                    label: "En general",
+                    id: "General",
+                    enumValue: 10
+                });
+        
+                xboxComShellData.searchScopeOptions.push({
+                    value: "http://www.xbox.com/es-ES/Search?q={0}#Games",
+                    context: "Buscar en juegos",
+                    label: "En juegos",
+                    id: "Games",
+                    enumValue: 20
+                });
+        
+                xboxComShellData.searchScopeOptions.push({
+                    value: "http://www.xbox.com/es-ES/Search?q={0}#Video",
+                    context: "Buscar vídeo",
+                    label: "En vídeo",
+                    id: "Video",
+                    enumValue: 23
+                });
+        
+                xboxComShellData.searchScopeOptions.push({
+                    value: "http://www.xbox.com/es-ES/Search?q={0}#Support",
+                    context: "Buscar en Soporte técnico",
+                    label: "En soporte",
+                    id: "Support",
+                    enumValue: 30
+                });
+        
+                xboxComShellData.searchScopeOptions.push({
+                    value: "http://www.xbox.com/es-ES/Search?q={0}#Forums",
+                    context: "Buscar en foros",
+                    label: "En foros",
+                    id: "Forums",
+                    enumValue: 40
+                });
+        
+        xboxComShellData.defaultOptionIndex = 0;
+
+        require(['window.postXDMessage', 'jquery'], function (postXDMessage, $) {
+            $(function () {
+                    postXDMessage({verb: 'CURRENT_PAGE', url: window.location.href}, "OTHER");
+            });
+        });
+    </script>
+    <script src="/Shell/js/shiny.js"></script>
+    <script src="/Shell/js/instrumentation.js"></script>
+    <script src="/Shell/js/general.js"></script>
+    <script>try{var utcOffsetMinutes = new Date().getTimezoneOffset() * -1;setCookie("UtcOffsetMinutes", utcOffsetMinutes, 30);} catch (e){}</script>
+    <link rel="Stylesheet" type="text/css" href="/Shell/css/GridLayout.css" /><link rel="Stylesheet" type="text/css" href="/Shell/css/XboxV3.css" /><link rel="Stylesheet" type="text/css" href="/Shell/css/ShellStyles.css" /><link rel="Stylesheet" type="text/css" href="/Shell/css/jquery-ui-theme.css" /><link rel="shortcut icon" href="/Shell/images/favicon.ico" />
+    
+    
+    <meta name="description" content="Xbox.com es definitivamente el lugar donde conseguir todo lo relacionado con Xbox y Xbox 360. Encuentra noticias, actualizaciones, tr&#225;ilers de juegos, pantallas, previsualizaciones, estrategia, informaci&#243;n sobre hardware, lo que se cuece en la comunidad, lo &#250;ltimo de Xbox LIVE y la cobertura de Mi Xbox, foros, asistencia y &#161;mucho m&#225;s!"/>
+
+
+    <link href="/Content/Site.css" rel="stylesheet" type="text/css" />
+    
+    <script type="text/javascript">
+        $(document).ready(function () {
+        
+        });
+    </script>
+
+
+    
+                <link href="/Content/Xbox.css" rel="Stylesheet" type="text/css" />
+          
+    
+    
+
+
+     
+          <link rel="Stylesheet" type="text/css" href="/Shell/css/MetroHeroStyle.css" />
+    
+    
+
+<title>
+	Xbox.com ES - Xbox.com
+</title></head>
+<body id="ctl00_ctl00_ctl00_DocumentBody" class="es-ES marketplaceEnabled pointsEnabled goldEnabled musicPassEnabled">
+    
+    <div id="bodycolumn">
+        
+        <div id="BodyHeader" class="container">
+            
+
+<div id="ShellHeaderContent">
+    <span id="XbcPointsBalanceShell"></span>
+    <div id="ShellMeBarArea">
+        <a href="http://www.xbox.com/?xr=mebarnav">
+            <div id="ShellLogo"></div>
+        </a>
+     
+            <div id="SignedOutExperience">
+                <div id="HeadShotBox" class="SignedOut"></div>
+                <div id="ShellMeBar" class="SignedOut">
+                    <div class="GamerStatArea">
+                    <div class="WelcomeText">Gratis.</div>
+                    </div>
+                    <div class="LinkArea">
+                        <a href="https://live.xbox.com/es-ES/Account?xr=mebarnav" >Mi cuenta</a>
+                        <span class="spread"><a href="http://www.xbox.com/es-ES/live/join" >&#218;nete ahora</a></span>
+                        <span class="spread">
+                            <a name="RpsSignInLink" href="https://live.xbox.com/Account/Signin?returnUrl=http%3a%2f%2fwww.xbox.com%2fes-ES%2f">Iniciar sesi&#243;n</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+     
+    </div>
+    <div id="ShellNavigationBar">
+        <div>
+            <div class="SearchArea">
+                <input id="SearchTextBox" type="text" name="q" class="TextBox" value="" url="http://www.xbox.com/es-ES/Search?q={0}#All" maxlength="200" autocomplete="off" />
+                <input id="SearchButton" type="button" class="SubmitButton" value="" title="Buscar todo" />
+            </div>
+            
+<ul class="NavigationElements">
+    
+    <li>
+        <a href="http&#58;&#47;&#47;www.xbox.com&#47;es-ES&#47;Xbox360&#63;xr&#61;shellnav" name="es_ES_0" aria-haspopup="true" >Xbox 360 + Kinect</a>
+        
+            <ul>
+            
+                    <li>
+                        <a href="http&#58;&#47;&#47;www.xbox.com&#47;es-ES&#47;Xbox360&#63;xr&#61;shellnav" name="es_ES_0_0" >Descripción</a>
+                    </li>
+            
+                    <li>
+                        <a href="http&#58;&#47;&#47;www.xbox.com&#47;es-ES&#47;xbox360&#47;consoles&#63;xr&#61;shellnav" name="es_ES_0_1" >Consolas</a>
+                    </li>
+            
+                    <li>
+                        <a href="http&#58;&#47;&#47;www.xbox.com&#47;es-ES&#47;Kinect&#63;xr&#61;shellnav" name="es_ES_0_2" >Kinect</a>
+                    </li>
+            
+                    <li>
+                        <a href="http&#58;&#47;&#47;www.xbox.com&#47;es-ES&#47;Xbox360&#47;Accessories&#63;xr&#61;shellnav" name="es_ES_0_3" >Accesorios</a>
+                    </li>
+            
+                    <li>
+                        <a href="http&#58;&#47;&#47;www.xbox.com&#47;es-ES&#47;xbox360&#47;wheretobuy&#63;xr&#61;shellnav" name="es_ES_0_4" >Dónde comprar</a>
+                    </li>
+            
+            </ul>
+        
+    </li>
+    
+    <li>
+        <a href="http&#58;&#47;&#47;www.xbox.com&#47;es-ES&#47;Live&#63;xr&#61;shellnav" name="es_ES_1" aria-haspopup="true" >Xbox LIVE</a>
+        
+            <ul>
+            
+                    <li>
+                        <a href="http&#58;&#47;&#47;www.xbox.com&#47;es-ES&#47;LIVE&#63;xr&#61;shellnav" name="es_ES_1_0" >Descripción</a>
+                    </li>
+            
+                    <li>
+                        <a href="http&#58;&#47;&#47;www.xbox.com&#47;es-ES&#47;live&#47;joinlive&#63;xr&#61;shellnav" name="es_ES_1_1" >Únete a Xbox LIVE</a>
+                    </li>
+            
+                    <li>
+                        <a href="http&#58;&#47;&#47;www.xbox.com&#47;es-ES&#47;live&#47;rewards&#63;xr&#61;shellnav" name="es_ES_1_2" >Xbox LIVE Rewards</a>
+                    </li>
+            
+                    <li>
+                        <a href="http&#58;&#47;&#47;www.xbox.com&#47;es-ES&#47;Live&#47;PC&#63;xr&#61;shellnav" name="es_ES_1_3" >Juegos para PC</a>
+                    </li>
+            
+                    <li>
+                        <a href="https&#58;&#47;&#47;live.xbox.com&#47;es-ES&#47;RedeemToken&#63;xr&#61;shellnav" name="es_ES_1_4" >Canjear Código</a>
+                    </li>
+            
+            </ul>
+        
+    </li>
+    
+    <li>
+        <a href="https&#58;&#47;&#47;live.xbox.com&#47;es-ES&#47;&#63;xr&#61;shellnav" name="es_ES_2" aria-haspopup="true" >Social</a>
+        
+            <ul>
+            
+                    <li>
+                        <a href="https&#58;&#47;&#47;live.xbox.com&#47;es-ES&#47;&#63;xr&#61;shellnav" name="es_ES_2_0" >Página principal</a>
+                    </li>
+            
+                    <li>
+                        <a href="https&#58;&#47;&#47;live.xbox.com&#47;es-ES&#47;Friends&#63;xr&#61;shellnav" name="es_ES_2_1" >Amigos</a>
+                    </li>
+            
+                    <li>
+                        <a href="https&#58;&#47;&#47;live.xbox.com&#47;es-ES&#47;Messages&#63;xr&#61;shellnav" name="es_ES_2_2" >Mensajes</a>
+                    </li>
+            
+                    <li>
+                        <a href="https&#58;&#47;&#47;live.xbox.com&#47;es-ES&#47;Activity&#63;xr&#61;shellnav" name="es_ES_2_3" >Activity</a>
+                    </li>
+            
+                    <li>
+                        <a href="http&#58;&#47;&#47;forums.xbox.com&#47;default.aspx&#63;ForumGroupID&#61;7&#38;xr&#61;shellnav" name="es_ES_2_4" >Foros</a>
+                    </li>
+            
+                    <li>
+                        <a href="https&#58;&#47;&#47;live.xbox.com&#47;es-ES&#47;familycenter&#63;xr&#61;shellnav" name="es_ES_2_5" >Centro Familiar</a>
+                    </li>
+            
+            </ul>
+        
+    </li>
+    
+    <li>
+        <a href="http&#58;&#47;&#47;marketplace.xbox.com&#47;es-ES&#47;&#63;xr&#61;shellnav" name="es_ES_3" aria-haspopup="true" >Juegos</a>
+        
+            <ul>
+            
+                    <li>
+                        <a href="http&#58;&#47;&#47;marketplace.xbox.com&#47;es-ES&#47;&#63;xr&#61;shellnav" name="es_ES_3_0" >Todos los juegos</a>
+                    </li>
+            
+                    <li>
+                        <a href="http&#58;&#47;&#47;marketplace.xbox.com&#47;es-ES&#47;Xbox&#63;xr&#61;shellnav" name="es_ES_3_1" >Juegos Xbox</a>
+                    </li>
+            
+                    <li>
+                        <a href="http&#58;&#47;&#47;marketplace.xbox.com&#47;es-ES&#47;PC&#63;xr&#61;shellnav" name="es_ES_3_2" >Juegos para PC </a>
+                    </li>
+            
+                    <li>
+                        <a href="http&#58;&#47;&#47;www.xbox.com&#47;es-ES&#47;Live&#47;Mobile&#63;xr&#61;shellnav" name="es_ES_3_3" >Juegos para Windows Phone</a>
+                    </li>
+            
+                    <li>
+                        <a href="http&#58;&#47;&#47;marketplace.xbox.com&#47;es-ES&#47;AvatarMarketplace&#63;xr&#61;shellnav" name="es_ES_3_4" >Avatares</a>
+                    </li>
+            
+            </ul>
+        
+    </li>
+    
+    <li>
+        <a href="http&#58;&#47;&#47;www.xbox.com&#47;es-ES&#47;Video&#63;xr&#61;shellnav" name="es_ES_4" aria-haspopup="true" >Vídeos</a>
+        
+            <ul>
+            
+                    <li>
+                        <a href="http&#58;&#47;&#47;www.xbox.com&#47;es-ES&#47;video&#63;xr&#61;shellnav" name="es_ES_4_0" >Xbox Video</a>
+                    </li>
+            
+                    <li>
+                        <a href="http&#58;&#47;&#47;marketplace.xbox.com&#47;es-ES&#47;Video&#47;Movies&#63;xr&#61;shellnav" name="es_ES_4_1" >Películas</a>
+                    </li>
+            
+                    <li>
+                        <a href="http&#58;&#47;&#47;marketplace.xbox.com&#47;es-ES&#47;Video&#47;TVShows&#63;xr&#61;shellnav" name="es_ES_4_2" >Programas de TV</a>
+                    </li>
+            
+            </ul>
+        
+    </li>
+    
+    <li>
+        <a href="http&#58;&#47;&#47;www.xbox.com&#47;es-ES&#47;Music&#63;xr&#61;shellnav" name="es_ES_5" aria-haspopup="true" >Música</a>
+        
+            <ul>
+            
+                    <li>
+                        <a href="http&#58;&#47;&#47;www.xbox.com&#47;es-ES&#47;music&#63;xr&#61;shellnav" name="es_ES_5_0" >Xbox Music</a>
+                    </li>
+            
+                    <li>
+                        <a href="http&#58;&#47;&#47;www.xbox.com&#47;es-ES&#47;music&#47;music-pass&#63;xr&#61;shellnav" name="es_ES_5_1" >Xbox Music Pass</a>
+                    </li>
+            
+            </ul>
+        
+    </li>
+    
+    <li>
+        <a href="http&#58;&#47;&#47;support.xbox.com&#47;&#63;xr&#61;shellnav" name="es_ES_6" aria-haspopup="true" >Soporte técnico</a>
+        
+            <ul>
+            
+                    <li>
+                        <a href="http&#58;&#47;&#47;support.xbox.com&#47;&#63;xr&#61;shellnav" name="es_ES_6_0" >Buscar en soporte</a>
+                    </li>
+            
+                    <li>
+                        <a href="http&#58;&#47;&#47;support.xbox.com&#47;billing-and-subscriptions&#47;browse&#63;xr&#61;shellnav" name="es_ES_6_1" >Facturación y suscripciones</a>
+                    </li>
+            
+                    <li>
+                        <a href="http&#58;&#47;&#47;support.xbox.com&#47;xbox-360&#47;browse&#63;xr&#61;shellnav" name="es_ES_6_2" >Xbox 360, Kinect y accesorios</a>
+                    </li>
+            
+                    <li>
+                        <a href="http&#58;&#47;&#47;support.xbox.com&#47;xbox-live&#47;browse&#63;xr&#61;shellnav" name="es_ES_6_3" >Xbox LIVE</a>
+                    </li>
+            
+                    <li>
+                        <a href="http&#58;&#47;&#47;support.xbox.com&#47;music-and-video&#47;browse&#63;xr&#61;shellnav" name="es_ES_6_4" >Música y Video de Xbox</a>
+                    </li>
+            
+                    <li>
+                        <a href="http&#58;&#47;&#47;support.xbox.com&#47;apps&#47;browse&#63;xr&#61;shellnav" name="es_ES_6_5" >Aplicaciones</a>
+                    </li>
+            
+                    <li>
+                        <a href="http&#58;&#47;&#47;support.xbox.com&#47;games&#47;browse&#63;xr&#61;shellnav" name="es_ES_6_6" >Juegos</a>
+                    </li>
+            
+                    <li>
+                        <a href="http&#58;&#47;&#47;support.xbox.com&#47;zune&#47;browse&#63;xr&#61;shellnav" name="es_ES_6_7" >Zune</a>
+                    </li>
+            
+            </ul>
+        
+    </li>
+    
+</ul>
+
+        </div>
+    </div>
+    <div id="BreadcrumbsPlaceholder"></div>
+    <script language="javascript" type="text/javascript" >
+        //<![CDATA[
+        $(function() {
+            InitializeMobileLink("#MobileVersionLinkArea", 'desktopVersion', 'mobileOverride');
+        });
+
+        $(function() {
+            function PadNavigationElements() {
+                var usedWidth = 0;
+                $("#ShellNavigationBar ul.NavigationElements > li").each(function(){ usedWidth += $(this).width();});
+
+                var availableWidth = $("#ShellNavigationBar > div").width() - $("#ShellNavigationBar .SearchArea").width() - usedWidth;
+                var numElements = $("#ShellNavigationBar ul.NavigationElements > li").length;
+                var paddingAddition = availableWidth / numElements;
+                paddingAddition = paddingAddition - 1; /* play it safe */
+                if (paddingAddition > 0)
+                {
+                    $("#ShellNavigationBar ul.NavigationElements > li").css("margin-right",paddingAddition + "px")
+                }
+            }
+
+            PadNavigationElements();
+            $(window).resize(PadNavigationElements);
+        });
+
+        function XbcShellAddPoints() { window.location = 'https://live.xbox.com/es-ES/BuyPoints?ru=' + encodeURIComponent(window.location) + '&aru=' + encodeURIComponent(window.location); }
+
+        $(function() {
+            $('#SearchTextBox')
+                .keypress( function(event) {
+                    if(event.keyCode==13) {
+                        showSearchResults();
+                        return false;
+                    }
+                });
+
+            $('#SearchButton')
+                .click( function() {
+                    showSearchResults();
+                });
+            
+            InitializeSearchScopeDropDown();
+        });
+        //]]>
+    </script>
+</div>
+
+        </div>
+        <div id="BodyContent" class="container">
+            
+    
+
+<div id="popupBackground" onclick="javascript:closeVideoPopupViewer();"></div> 
+    <div id="popupVideoPlayer">
+    <div id="silverlightVideoPopupHost"></div>
+</div>
+
+
+<script type="text/javascript">
+    (function(window, undefined) {
+        var xbox = window.xbox = window.xbox || { };
+        xbox.videoPlayer = xbox.videoPlayer || { };
+        xbox.videoPlayer.txtPlaybackErrorTitle = 'No se puede reproducir';
+        xbox.videoPlayer.txtPlaybackErrorActiveXDescription = 'No se puede reproducir este contenido porque se ha deshabilitado ActiveX. Habilita ActiveX en la configuraci\u00f3n del explorador y, a continuaci\u00f3n, actualiza esta p\u00e1gina o vuelve a intentarlo.';
+        xbox.videoPlayer.txtPlaybackErrorGenericDescription = 'Se ha producido un problema al reproducir este v\u00eddeo. Vuelve a intentarlo m\u00e1s tarde.';
+        xbox.videoPlayer.txtPlaybackErrorUnsupportedBrowser = 'Silverlight no es compatible con tu explorador.';
+        xbox.videoPlayer.txtPlaybackErrorClose = 'Cerrar';
+        xbox.videoPlayer.VideoPlayerUrl = 'http://nxeassets.xbox.com/shaXam/xboxcom/00013.00002.00010.00016/Content/Silverlight/VideoPlayer.xap';
+        xbox.videoPlayer.locale = {currentCulture: 'es-ES', currentUICulture: 'es-ES'};
+    })(window);
+</script>
+<style>
+    #ShellBreadcrumbs { display: none }
+</style>
+
+
+<div id="MetroHero" class="grid-24 lastgridchild ">
+<div class='grid-6'>
+
+<a id="SlotIndex2" data-hero-metro="2:hero:FH-March-Car-Pack:March-Meguiar&#39;s-Car:Buy-from-Xbox.com:06-03" href="http://marketplace.xbox.com/Product/March-Meguiars-Car-Pack/a1535a0c-5bc5-43cf-bbde-0b3ded9af9fe" title="Compra ya en Xbox.xom - Pack de coches Meguiar&#39;s de marzo" class="RegularHeroTile">
+    <img src="http://compass.xboxlive.com/assets/bf/17/bf173c00-42cd-4b30-852b-5071dc50c8bf.jpg?n=ForzaMarch_235x132.jpg" alt="Compra ya en Xbox.xom - Pack de coches Meguiar&#39;s de marzo" />
+    <span class="TextModule">
+        <h2>Compra ya en Xbox.xom</h2>
+        <p>Pack de coches Meguiar&#39;s de marzo</p>
+    </span>
+</a>
+
+<a id="SlotIndex3" data-hero-metro="3:hero:Nike-DLC:Latest-content:Buy-now-on:15-03-13" href="http://marketplace.xbox.com/Product/Nike-Kinect-Training/66acd000-77fe-1000-9115-d8024d53090f?nosplash=1&DownloadType=GameAddon" title="Descargar CD - Compra ya en Xbox.xom" class="RegularHeroTile">
+    <img src="http://compass.xboxlive.com/assets/e8/79/e879bcc8-2577-4cd7-892d-57199a213cdb.jpg#NikeKinect_235x132.jpg" alt="Descargar CD - Compra ya en Xbox.xom" />
+Resource interpreted as Image but transferred with MIME type application/octet-stream: "http://compass.xboxlive.com/assets/e8/79/e879bcc8-2577-4cd7-892d-57199a213cdb.jpg".
+    <span class="TextModule">
+        <h2>Descargar CD</h2>
+        <p>Compra ya en Xbox.xom</p>
+    </span>
+</a></div><div class='grid-12'>
+
+<a id="SlotIndex1" data-hero-metro="1:hero:Gears-Preorder:Out-March-22nd:Preorder-Gears-of:15-03-13" href="http://www.xbox.com/Marketplace/Product/Gears-of-War-Judgment/buy-now" title="Gears of War Judgment: a la venta el 22 de marzo - Reserva Gears of War Judgment" class="MainHeroTile">
+    <img src="http://compass.xboxlive.com/assets/ce/f6/cef629a9-6310-4b55-a0c4-4fa3efb856c7.jpg?n=GOW_judgment_475x356.jpg" alt="Gears of War Judgment: a la venta el 22 de marzo - Reserva Gears of War Judgment" />
+    <span class="TextModule">
+        <h2>Gears of War Judgment: a la venta el 22 de marzo</h2>
+        <p>Reserva Gears of War Judgment</p>
+    </span>
+</a></div><div class='grid-6 lastgridchild'>
+
+<a id="SlotIndex4" data-hero-metro="4:hero:Tomb-Raider-Controller:Wireless-controller:Limited-Edition:15-03-13" href="http://www.xbox.com/xbox360/accessories/controllers/tomb-raider-limited-edition-wireless-controller" title="Mando inal&#225;mbrico - Edici&#243;n limitada" class="RegularHeroTile">
+    <img src="http://compass.xboxlive.com/assets/f1/97/f1975e03-6dc7-41b2-a776-fccaf9d2e11a.jpg?n=TombRaiderController_235x132.jpg" alt="Mando inal&#225;mbrico - Edici&#243;n limitada" />
+    <span class="TextModule">
+        <h2>Mando inal&#225;mbrico</h2>
+        <p>Edici&#243;n limitada</p>
+    </span>
+</a>
+
+<a id="SlotIndex5" data-hero-metro="5:hero:CoD-MTX-Microtransactional-DLC:Latest-content:Buy-from-Xbox:15-03-13" href="http://marketplace.xbox.com/Product/Call-of-Duty-Black-Ops-II/66acd000-77fe-1000-9115-d802415608c3?nosplash=1&DownloadType=GameAddon" title="&#218;ltimo contenido - Compra en Xbox.com" class="RegularHeroTile">
+    <img src="http://compass.xboxlive.com/assets/bc/0c/bc0cf2e8-a1dd-4031-8b08-ceeea1046f6c.jpg?n=COD_MTX_235x132.jpg" alt="&#218;ltimo contenido - Compra en Xbox.com" />
+    <span class="TextModule">
+        <h2>&#218;ltimo contenido</h2>
+        <p>Compra en Xbox.com</p>
+    </span>
+</a></div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        if (BusinessTracking.isOmnitureEnabled()) {
+            //captures events and product impression data specifically for the metro hero
+            if (!s.events.match(/event4($|,)/)) {
+                s.events = s.events ? s.events + ',event4' : 'event4';
+            }
+
+            var heroAttrName = "data-hero-metro";
+            var heroData = "";
+
+            if (s.products) {
+
+                heroData = s.products;
+            }
+
+
+            $("[" + heroAttrName + "]").each(function () {
+
+                //concatenates the list of hero product data, adding a comma between items
+                if (heroData.length > 0) { heroData += ","; }
+                heroData += ";" + $(this).attr(heroAttrName) + ":" + s.pageName;
+
+            });
+            s.products = heroData.toLowerCase();
+        }
+    });
+</script>
+<br class='clear'/>
+
+<script type="text/javascript" language="javascript">
+    $(function() {
+    $('.image-placeholder').hover(
+        function(event) {
+            // hover in
+            $(this).removeClass('centerbottom').addClass('centertop');
+        },
+
+        function(event) {
+            // hover out
+            $(this).removeClass('centertop').addClass('centerbottom');
+        });
+    });
+</script>
+
+
+    <div class="ToutRow"> 
+    
+            <div class="grid-6 " >
+                <div class="toutImg-6 landing-cell">
+                    
+                        <a data-tout="1:tout:DOTW:15-03:www/" href="http://marketplace.xbox.com/Promotion/dealoftheweek"  class="action-url">
+                    
+                        <div style="background-image: url('http://compass.xboxlive.com/assets/f6/44/f644caa8-9e09-48e6-90df-2eb91f522578.jpg?n=Dotw_March12_235x100_ES.jpg');" class="image-placeholder centerbottom" title="DOTW"></div>
+                    
+                        </a>
+                                                
+                </div>
+                <div class="TextBody">               
+                    
+                        <a data-tout="1:tout:DOTW:15-03:www/" href="http://marketplace.xbox.com/Promotion/dealoftheweek" >
+                    
+                        <h3>DOTW</h3>
+                                                
+                        </a>
+                        
+                    <p>DOTW</p>
+                </div>                
+            </div>               
+     
+            <div class="grid-6 " >
+                <div class="toutImg-6 landing-cell">
+                    
+                        <a data-tout="2:tout:GTA-V:15-03:www/" href="http://marketplace.xbox.com/Product/GTA-V/66acd000-77fe-1000-9115-d802545408a7"  class="action-url">
+                    
+                        <div style="background-image: url('http://compass.xboxlive.com/assets/45/af/45af0b63-c9f5-4fb2-bb04-f42bf2a30094.jpg?n=GTAV_235x100.jpg');" class="image-placeholder centerbottom" title="GTA V"></div>
+                    
+                        </a>
+                                                
+                </div>
+                <div class="TextBody">               
+                    
+                        <a data-tout="2:tout:GTA-V:15-03:www/" href="http://marketplace.xbox.com/Product/GTA-V/66acd000-77fe-1000-9115-d802545408a7" >
+                    
+                        <h3>GTA V</h3>
+                                                
+                        </a>
+                        
+                    <p>Ver el tráiler
+
+
+</p>
+                </div>                
+            </div>               
+     
+            <div class="grid-6 " >
+                <div class="toutImg-6 landing-cell">
+                    
+                        <a data-tout="3:tout:DC3-Rihanna:15-03:www/" href="http://marketplace.xbox.com/Product/Dance-Central-3/66acd000-77fe-1000-9115-d802373307d9?nosplash=1"  class="action-url">
+                    
+                        <div style="background-image: url('http://compass.xboxlive.com/assets/32/56/3256ec80-456e-4b86-8f51-7d2c0522adc4.jpg?n=DC3_Rihanna_235x100.jpg');" class="image-placeholder centerbottom" title="DC3 Rihanna"></div>
+                    
+                        </a>
+                                                
+                </div>
+                <div class="TextBody">               
+                    
+                        <a data-tout="3:tout:DC3-Rihanna:15-03:www/" href="http://marketplace.xbox.com/Product/Dance-Central-3/66acd000-77fe-1000-9115-d802373307d9?nosplash=1" >
+                    
+                        <h3>&#218;ltimo contenido</h3>
+                                                
+                        </a>
+                        
+                    <p>Compra ahora en Xbox.com
+</p>
+                </div>                
+            </div>               
+     
+            <div class="grid-6  lastgridchild" >
+                <div class="toutImg-6 landing-cell">
+                    
+                        <a data-tout="4:tout:CoD-Championship:15-03:www/" href="http://marketplace.xbox.com/Product/Call-of-Duty-Black-Ops-II/66acd000-77fe-1000-9115-d802415608c3"  class="action-url">
+                    
+                        <div style="background-image: url('http://compass.xboxlive.com/assets/25/17/25174ddf-9db7-4415-9475-94d795db2fed.jpg?n=cod_bo2_championship_hptout_235x100.jpg');" class="image-placeholder centerbottom" title="Participa"></div>
+                    
+                        </a>
+                                                
+                </div>
+                <div class="TextBody">               
+                    
+                        <a data-tout="4:tout:CoD-Championship:15-03:www/" href="http://marketplace.xbox.com/Product/Call-of-Duty-Black-Ops-II/66acd000-77fe-1000-9115-d802415608c3" >
+                    
+                        <h3>Participa</h3>
+                                                
+                        </a>
+                        
+                    <p>Call of Duty Championship
+</p>
+                </div>                
+            </div>               
+     
+     <br class="clear" />
+     
+            <div class="grid-6 " >
+                <div class="ToutBody">
+                    <div class="TextBody ToutBottomBlock">
+                        <a  data-tout="1:tout:DOTW:15-03:www/" href="http://marketplace.xbox.com/Promotion/dealoftheweek" >
+                            M&#225;s Informaci&#243;n 
+                        </a>
+                    </div>
+                </div>
+            </div>        
+        
+            <div class="grid-6 " >
+                <div class="ToutBody">
+                    <div class="TextBody ToutBottomBlock">
+                        <a  data-tout="2:tout:GTA-V:15-03:www/" href="http://marketplace.xbox.com/Product/GTA-V/66acd000-77fe-1000-9115-d802545408a7" >
+                            M&#225;s Informaci&#243;n 
+                        </a>
+                    </div>
+                </div>
+            </div>        
+        
+            <div class="grid-6 " >
+                <div class="ToutBody">
+                    <div class="TextBody ToutBottomBlock">
+                        <a  data-tout="3:tout:DC3-Rihanna:15-03:www/" href="http://marketplace.xbox.com/Product/Dance-Central-3/66acd000-77fe-1000-9115-d802373307d9?nosplash=1" >
+                            M&#225;s Informaci&#243;n 
+                        </a>
+                    </div>
+                </div>
+            </div>        
+        
+            <div class="grid-6  lastgridchild" >
+                <div class="ToutBody">
+                    <div class="TextBody ToutBottomBlock">
+                        <a  data-tout="4:tout:CoD-Championship:15-03:www/" href="http://marketplace.xbox.com/Product/Call-of-Duty-Black-Ops-II/66acd000-77fe-1000-9115-d802415608c3" >
+                            M&#225;s Informaci&#243;n 
+                        </a>
+                    </div>
+                </div>
+            </div>        
+                
+   <br class="clear" />     
+   </div>
+	
+    <div class="grid-24 Footer"><div><style>
+#MetroHero .TextModule p, #MetroHero .TextModule h2
+
+{
+       text-transform: uppercase;
+}
+</style>
+
+<!-- Snowy Homepage background -->
+<!--style type="text/css">
+body {background:#fff !important;background-image:none !important;overflow-x:hidden;}
+.trailer-box {position:absolute;top:0;left:50%;margin-left:-700px;z-index:-100;}
+</style>
+
+<div class="trailer-box">
+	<object id="slPlayer" data="data:application/x-silverlight-2," type="application/x-silverlight-2" width="1400px" height="642px">
+		<param name="source" value="http://nxeassets.xbox.com/shaxam/0201/6b/ff/6bffc5ee-7a1d-457b-af61-f932999a5f57.XAP?v=6#XmasHPTO.XAP"/>
+		<param name="onError" value="onSilverlightError" />
+		<param name="background" value="white" />
+		<param name="minRuntimeVersion" value="4.0.50826.0" />
+		<param name="autoUpgrade" value="true" />
+		<param name="enableHtmlAccess" value="true" />
+		<param name="windowless" value="true"/>							
+		<a href="http://go.microsoft.com/fwlink/?LinkID=149156&v=4.0.50826.0" style="text-decoration:none">
+		<img src="http://nxeassets.xbox.com/shaxam/0201/12/0f/120fd704-a81f-478d-a2b4-2223660d6d94.JPG?v=1#Xmas_BG_Static.JPG" alt="Get Microsoft Silverlight" style="border-style:none"/>
+		</a>
+	</object><iframe id="Iframe3" style="visibility:hidden;height:0px;width:0px;border:0px"></iframe>
+</div--></div></div>
+
+    <!-- date: [[2013-03-19T04:24:09.7495649Z]] -->
+
+        </div>
+        <div id="BodyFooter" class="container">
+            
+<div id="ShellFooterContent">
+    <div class="PrimaryContent">
+        <div id="ShellRightContentArea">
+            
+        </div>
+
+        <div id="ShellFooterNavigation">
+<a href="http&#58;&#47;&#47;www.xbox.com&#47;es-ES&#47;support&#47;&#63;xr&#61;footnav" >Asistencia</a><a href="http&#58;&#47;&#47;support.xbox.com&#47;es-es&#47;games&#47;pc-games&#47;photosensitive-seizure-warning&#63;xr&#61;footnav" class="spread" >Advertencia sobre ataques de fotosensibilidad </a><a href="http&#58;&#47;&#47;www.xbox.com&#47;es-ES&#47;games&#47;ratings&#63;xr&#61;footnav" class="spread" >PEGI-Online&#58; Informaci&#243;n sobre clasificaci&#243;n de juegos por edades</a>        </div>
+
+        <div id="ShellFooterSocial" class="ShellFooterSocial">
+<iframe src="&#47;&#47;www.facebook.com&#47;plugins&#47;like.php&#63;locale&#61;es_ES&#38;href&#61;http&#37;3a&#37;2f&#37;2fwww.facebook.com&#37;2fxboxES&#38;send&#61;false&#38;layout&#61;button_count&#38;show_faces&#61;false&#38;action&#61;like&#38;colorscheme&#61;light&#38;font&#38;height&#61;21" class="socialPluginFramefacebook spread" style="border:none; overflow:hidden; height:21px;" scrolling="no" frameborder="0" allowTransparency="true"  ></iframe>
+
+
+
+        </div>
+        <div id="ShellLeftContentArea">
+            <!--<p><a href="http://www.xbox.com/es-ES/games/ratings" target="_blank">PEGI-Online: Información sobre clasificación de juegos por edades</a></p>-->
+        </div>
+    </div>
+
+    <div class="SecondaryContent">
+        <div id="LogoAndCopyright">
+            <div id="CopyrightLogo">
+            </div>
+            <div id="CopyrightText">
+                &#169; 2013 Microsoft
+            </div>
+        </div>
+        <div id="ShellFooterSecondaryNavigation">
+            <div class="FuncLinkArea">
+                <a href="/Shell/ChangeLocale" id="ChangeCultureLink" name="ChangeCultureLink">Espa&#241;a</a>
+                <span id="MobileVersionLinkArea">
+                    <a class="changeMobileVersion" href="#" data-type="mobile" id="MobileVersionLink">Versi&#243;n m&#243;vil</a>
+                </span>
+            </div>
+
+<a href="http&#58;&#47;&#47;go.microsoft.com&#47;fwlink&#47;&#63;LinkID&#61;259655&#38;xr&#61;footnav" >Privacidad y Cookies</a><a href="http&#58;&#47;&#47;www.xbox.com&#47;es-ES&#47;legal&#47;xboxComTOU&#63;xr&#61;footnav" class="spread" >Condiciones de uso de Xbox.com</a><a href="http&#58;&#47;&#47;www.xbox.com&#47;es-ES&#47;legal&#47;codeofconduct&#63;xr&#61;footnav" class="spread" >C&#243;digo de conducta</a>        </div>
+    </div>
+
+</div>
+        </div>
+        
+    </div>
+
+    <!-- SiteCatalyst code version: H.16.  Copyright 1996-2010 Adobe, Inc. More info available at http://www.omniture.com -->
+<script type="text/javascript">//<![CDATA[
+ try { var s_account="msxboxcomeses,msxboxcomglobal";t_account="msxboxcomv2esES"; } catch(e) {} 
+//]]></script>
+<script type="text/javascript" src="/Shell/js/s_code.js"></script>
+<script type="text/javascript">//<![CDATA[
+try {
+s.pageName='www\x2f';s.events='event4,event1';s.prop2='es-es';s.eVar1='es-es';s.eVar73='default';s.eVar8='n';s.prop10='n';s.channel='www';s.prop1='home page';s.eVar7='home page';s.products='\x3b1\x3atout\x3adotw\x3a15-03\x3awww\x2f,\x3b2\x3atout\x3agta-v\x3a15-03\x3awww\x2f,\x3b3\x3atout\x3adc3-rihanna\x3a15-03\x3awww\x2f,\x3b4\x3atout\x3acod-championship\x3a15-03\x3awww\x2f';
+var extendedReferrer = s.getQueryParam('xr').toLowerCase();
+if (extendedReferrer.length > 0) { s.prop9 = extendedReferrer; }
+if (!s.eVar2) { s.eVar2 = s.pageName; }
+s.trackingServer="o.xbox.com";
+s.trackingServerSecure="s.xbox.com";
+s.trackInlineStats=true;
+$('document').ready(function() {
+try {
+if (typeof(OmnitureTracking) != 'undefined') { OmnitureTracking.onBeforePageImpression() }
+var s_code=s.t(); if (s_code) document.write(s_code);
+}catch(ex){}
+});
+}catch(e){}
+//]]></script>
+<noscript><img src="http://o.xbox.com/b/ss/msxboxcomeses,msxboxcomglobal/1/H.16--NS/0?pageName=NoScriptPage" height="1" width="1" border="0" alt="" /></noscript><!--/DO NOT REMOVE/--><!-- End SiteCatalyst code version: H.16. --><!-- Start Vortex tracking -->
+<script type="text/javascript" src="/Shell/js/vortex_tracking.js"></script>
+<script type="text/javascript">//<![CDATA[
+try {
+   vortex.serviceUrl = 'http\x3a\x2f\x2fpiflc.xbox.com\x2fvortex\x2flogweb_v1.ashx';
+   vortex.locale = 'es-ES';
+   vortex.pageName = 'www\x2f';
+   vortex.recordPageImpression();
+}
+catch(e)
+{ }
+//]]</script>
+<noscript><img src="http://piflc.xbox.com/vortex/logweb_v1.ashx?evt=impr&evn=0&pri=0&page=www%2f" height="1" width="1" border="0" alt="" /></noscript>
+<!-- End Vortex tracking -->
+<!-- Start WEDCS tracking -->
+<script type="text/javascript">
+try {
+var varSegmentation = 0; var varClickTracking = 1;var varCustomerTracking = 1;
+document.write("<script type='text/javascript' src='http://c.microsoft.com/ms.js'><\/script>");
+} catch(e) {}
+</script>
+<noscript><img src="http://c.microsoft.com/trans_pixel.aspx" height="1" width="1" border="0" alt="" /></noscript>
+<!-- End WEDCS tracking -->
+<script type="text/javascript" src="http://js.microsoft.com/library/svy/xbox/broker.js"></script><script type="text/javascript">//<![CDATA[
+try{    if ((typeof BusinessTracking != 'undefined') && (BusinessTracking.extendPageViewData)) {
+        BusinessTracking.extendPageViewData();
+    }}catch(e){}
+//]]></script>
+
+    <script src="/Shell/js/videoplayer.js" type="text/javascript"></script>
+<script src="/Shell/js/Silverlight.js" type="text/javascript"></script>
+
+</body>
+
+</html>
